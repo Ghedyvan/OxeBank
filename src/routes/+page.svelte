@@ -1,7 +1,9 @@
 <script>
-	import Button from '../components/Button.svelte';
+	import Header from '../components/Header.svelte';
+	import Hero from '../components/Hero.svelte';
 </script>
 
 <main>
-	<Button />
+    <Header />
+    <Hero />
 </main>
