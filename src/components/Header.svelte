@@ -17,7 +17,7 @@
 				<a href="/" class="text-white">Ajuda</a>
 			</li>
 			<li>
-				<Button textButton={'Acessar conta digital'} />
+				<Button textButton={'Acessar conta digital'} classList={''} rota={'/login'}/>
 			</li>
 		</ul>
 	</div>
