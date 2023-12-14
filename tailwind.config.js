@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         'hero': "url('/assets/heroSvg.svg')",
       },
+      height: {
+        'screen-80': 'calc(100vh - 88px)',
+      }
     },
   },
   plugins: [],

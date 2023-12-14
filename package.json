@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-navigator": "^3.2.2",
 		"swiper": "^11.0.5"
 	}
 }

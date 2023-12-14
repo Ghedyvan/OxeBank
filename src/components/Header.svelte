@@ -1,5 +1,6 @@
 <script>
 	import Button from './Button.svelte';
+	import { navigate } from 'svelte-navigator';
 </script>
 
 <div class="w-full h-[88px] justify-center flex bg-hero bg-cover border-b-gray-50 border-b border-opacity-30">
@@ -16,7 +17,7 @@
 				<a href="/" class="text-white">Ajuda</a>
 			</li>
 			<li>
-				<Button textButton={'Abra sua conta digital'} backgroundColor={'red'}/>
+				<Button textButton={'Acessar conta digital'} />
 			</li>
 		</ul>
 	</div>

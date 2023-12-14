@@ -17,7 +17,7 @@
 			<div class="flex gap-[24px]">
 				<Button
 					classList={'!bg-[#F7AD19] !text-[#033650] text-base'}
-					textButton={'Abra sua conta digital'}
+					textButton={'Acessar conta digital'}
 				/>
 			</div>
 			<div class="w-full flex justify-between mt-[64px]">
