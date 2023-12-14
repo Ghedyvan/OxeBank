@@ -1,11 +1,15 @@
 <script>
 	import Button from './Button.svelte';
-	import { navigate } from 'svelte-navigator';
+	import { Router, navigate } from 'svelte-navigator';
 </script>
 
-<div class="w-full h-[88px] justify-center flex bg-hero bg-cover border-b-gray-50 border-b border-opacity-30">
+<div
+	class="w-full h-[88px] justify-center flex bg-hero bg-cover border-b-gray-50 border-b border-opacity-30"
+>
 	<div class="max-w-[1216px] flex justify-between w-full">
-		<img src="/assets/logoWhite.svg" alt="logo arkademy" class="w-[180px]" />
+		<a href="/" class="h-full flex">
+			<img src="/assets/logoWhite.svg" alt="logo arkademy"  class="w-[180px]" />
+		</a>
 		<ul class="flex gap-[40px] items-center">
 			<li>
 				<a href="/" class="text-white">Produtos</a>
@@ -17,7 +21,7 @@
 				<a href="/" class="text-white">Ajuda</a>
 			</li>
 			<li>
-				<Button textButton={'Acessar conta digital'} classList={''} rota={'/login'}/>
+				<Button textButton={'Acessar conta digital'} classList={''} rota={'/login'} />
 			</li>
 		</ul>
 	</div>
