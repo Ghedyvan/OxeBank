@@ -1,4 +1,4 @@
-<div class="w-full bg-white flex justify-center">
+<section id="about-section" class="w-full bg-white flex justify-center">
 	<div class="max-w-[1216px] w-full relative">
 		<div
 			class="container w-full bg-white text-center border rounded-lg shadow-lg absolute top-[-60px]"
@@ -49,4 +49,4 @@
 			</p>
 		</div>
 	</div>
-</div>
+</section>
