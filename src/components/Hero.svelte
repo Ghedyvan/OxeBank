@@ -2,7 +2,7 @@
 	import Button from './Button.svelte';
 </script>
 
-<div class="h-[675px] bg-hero bg-cover w-full justify-center flex">
+<section class="h-[675px] bg-hero bg-cover w-full justify-center flex">
 	<div class="pt-[87px] max-w-[1216px] justify-between flex w-full">
 		<div class="max-w-[560px]">
 			<p class="text-[#429EBD] font-semibold text-2xl flex">
@@ -50,7 +50,7 @@
 						<img
 							src="/assets/moneyIconHero.svg"
 							alt="hero elipse"
-							class="relative top-[15px] left-[17px]"
+							class="relative top-[14px] left-[18px]"
 						/>
 					</div>
 					<p class="text-white text-base ml-7">Seu dinheiro rendendo mais</p>
@@ -76,4 +76,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

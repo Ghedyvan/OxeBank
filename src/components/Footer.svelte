@@ -1,4 +1,4 @@
-<div class="w-full justify-center flex bg-hero bg-cover">
+<section id="footer-section" class="w-full justify-center flex bg-hero bg-cover">
 	<div class="pt-[100px] w-full max-w-[1216px]">
 		<div
 			class="border-[#F1F0F5] pb-[50px] border-b-[1px] border-opacity-40 w-full flex flex-col justify-center items-center"
@@ -28,4 +28,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

@@ -1,6 +1,21 @@
 <script>
 	import Button from './Button.svelte';
 	import { Router, navigate } from 'svelte-navigator';
+
+	function scrollToProdutos() {
+	  const produtosSection = document.getElementById('produtos-section');
+	  if (produtosSection) {
+		produtosSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+	  }
+	}
+
+	function scrollToAjuda() {
+	  const ajudaSection = document.getElementById('footer-section');
+	  if (ajudaSection) {
+		ajudaSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+	  }
+	}
+
 </script>
 
 <div
@@ -12,13 +27,15 @@
 		</a>
 		<ul class="flex gap-[40px] items-center">
 			<li>
-				<a href="/" class="text-white">Produtos</a>
+				<!-- <a href="/" class="text-white">Produtos</a> -->
+				<button on:click="{scrollToProdutos}" class="text-white">Produtos</button>
 			</li>
 			<li>
 				<a href="/quem-somos" class="text-white">Quem somos</a>
 			</li>
 			<li>
-				<a href="/" class="text-white">Ajuda</a>
+				<!-- <a href="/" class="text-white">Ajuda</a> -->
+				<button on:click="{scrollToAjuda}" class="text-white">Ajuda</button>
 			</li>
 			<li>
 				<Button textButton={'Acessar conta digital'} classList={''} rota={'/login'} />
