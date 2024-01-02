@@ -29,3 +29,14 @@ a {
 ul {
 	list-style: none;
 }
+
+input{
+	outline: none;
+	border: none;
+	:focus {
+		outline: none;
+	}
+}
+	
+
+

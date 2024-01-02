@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="w-full h-[88px] justify-center flex bg-hero bg-cover border-b-gray-50 border-b border-opacity-30"
+	class="w-full sticky top-0 z-[9999] h-[88px] justify-center flex bg-hero bg-cover border-b-gray-50 border-b border-opacity-30"
 >
 	<div class="max-w-[1216px] flex justify-between w-full">
 		<a href="/" class="h-full flex">
@@ -15,7 +15,7 @@
 				<a href="/" class="text-white">Produtos</a>
 			</li>
 			<li>
-				<a href="/" class="text-white">Quem somos</a>
+				<a href="/quem-somos" class="text-white">Quem somos</a>
 			</li>
 			<li>
 				<a href="/" class="text-white">Ajuda</a>

@@ -8,7 +8,10 @@ export default {
       },
       height: {
         'screen-80': 'calc(100vh - 88px)',
-      }
+      },
+      textColor: {
+        'laranja': '#F7AD19',
+      },
     },
   },
   plugins: [],

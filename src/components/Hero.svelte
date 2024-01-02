@@ -18,6 +18,7 @@
 				<Button
 					classList={'!bg-[#F7AD19] !text-[#033650] text-base'}
 					textButton={'Acessar conta digital'}
+					rota={'/login'}
 				/>
 			</div>
 			<div class="w-full flex justify-between mt-[64px]">
