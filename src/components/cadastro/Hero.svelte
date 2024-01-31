@@ -25,8 +25,9 @@
 							type="text"
 							name="cpf"
 							id="cpf"
+							maxlength="11"
 							class="w-full rounded-full p-3 mb-4"
-							placeholder="Número do seu CPF"
+							placeholder="Dígitos do CPF sem pontos"
 							required
 						/>
 					</div>

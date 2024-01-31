@@ -15,26 +15,27 @@
 						type="password"
 						placeholder="Senha"
 					/>
-					<button
+					<!-- <button
 						class="w-full max-w-[120px] h-10 bg-[#3687A2] text-white rounded-[60px]"
 						type="submit">Avançar</button
-					>
+					> -->
+					<a class="w-full max-w-[120px] flex justify-center items-center h-10 bg-[#3687A2] text-white rounded-[60px]" href="/myaccount">Avançar</a>
 				</form>
 			</div>
 		</div>
 		<div class="bg-[#3687A2] w-full max-w-[50%] flex pr-0 items-center h-screen-80 relative">
 			<div class="absolute left-[110px] max-w-[400px] w-full">
-				<h3 class="leading-[28.80px] text-2xl font-medium text-[#F7AD19] pb-2">
+				<h3 class="leading-[28.80px] text-2xl font-medium text-white pb-2">
 					Ainda não tem conta?
 				</h3>
-				<h2 class="text-[56px] text-[#F7AD19] font-medium leading-[60px] pb-[24px]">
+				<h2 class="text-[56px] text-white font-medium leading-[60px] pb-[24px]">
 					Cadastre-se grátis
 				</h2>
 				<h4 class="text-white pb-6 text-xl font-medium leading-normal">
 					Tenha acesso a conteúdos e serviços exclusivos. É grátis e leva apenas 5 minutos.
 				</h4>
 				<a href="/cadastro"
-					class="w-full text-center py-2 max-w-[120px] h-10 bg-[#F7AD19] text-[#3687A2] rounded-[60px]"
+					class="w-full text-center py-2 max-w-[120px] h-10 bg-[#F7AD19] text-black rounded-[60px]"
 					type="button">Cadastrar</a>
 			</div>
 		</div>

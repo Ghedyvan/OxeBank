@@ -1,5 +1,6 @@
 <script>
 	import Button from '../Button.svelte';
+	import Services from './Services.svelte';
 </script>
 
 <div class="w-full bg-white flex justify-center">
@@ -25,7 +26,7 @@
 							<p class="text-[22px]">R$ 38.412,18</p>
 						</div>
 					</div>
-					<div class="flex flex-col gap-6">
+					<!-- <div class="flex flex-col gap-6">
 						<Button
 							classList={'text-[26px] !pt-0 pointer-events-none !border-0 !text-black font-semibold pb-2 text-center'}
 							textButton={'SERVIÇOS'}
@@ -46,8 +47,14 @@
 							textButton={'Realizar transferência'}
 							rota={''}
 						/>
-						
+					</div> -->
+					<div class="grid grid-cols-2 gap-x-20">
+						<Services nome='Boleto' imagem='/assets/myaccount/boleto.svg' />
+						<Services nome='Pix' imagem='/assets/myaccount/moneySend.svg' />
+						<Services nome='Transferir' imagem='/assets/myaccount/moneySend2.svg' />
+						<Services nome='Fatura' imagem='/assets/myaccount/cartao.svg' />
 					</div>
+
 				</div>
 			</div>
 		</div>

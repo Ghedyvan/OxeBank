@@ -31,7 +31,7 @@
 							class="relative top-[15px] left-[12px]"
 						/>
 					</div>
-					<p class="text-white text-base ml-7">Cartão sem anuidade</p>
+					<p class="text-white text-base ml-8">Cartão sem anuidade</p>
 				</div>
 				<div class="w-full max-w-[148px] flex justify-between">
 					<div class="w-[48px]">
@@ -42,9 +42,9 @@
 							class="relative top-[12px] left-[16px]"
 						/>
 					</div>
-					<p class="text-white text-base ml-7">Conta digital 100% grátis</p>
+					<p class="text-white text-base ml-8">Conta digital 100% grátis</p>
 				</div>
-				<div class="w-full max-w-[148px] flex justify-between">
+				<div class="w-full max-w-[155px] flex justify-between">
 					<div class="w-[48px]">
 						<img src="/assets/elipseHero.svg" alt="hero elipse" class="absolute" />
 						<img
@@ -53,7 +53,7 @@
 							class="relative top-[14px] left-[18px]"
 						/>
 					</div>
-					<p class="text-white text-base ml-7">Seu dinheiro rendendo mais</p>
+					<p class="text-white text-base ml-8">Seu dinheiro rendendo mais</p>
 				</div>
 			</div>
 		</div>
