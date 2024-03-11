@@ -26,40 +26,23 @@
 							<p class="text-[22px]">R$ 38.412,18</p>
 						</div>
 					</div>
-					<!-- <div class="flex flex-col gap-6">
-						<Button
-							classList={'text-[26px] !pt-0 pointer-events-none !border-0 !text-black font-semibold pb-2 text-center'}
-							textButton={'SERVIÇOS'}
-							rota={''}
-						/>
-						<Button
-							classList={'!bg-hero rounded-lg !text-white text-lg text-center'}
-							textButton={'Pagamento de boleto'}
-							rota={''}
-						/>
-						<Button
-							classList={'!bg-hero rounded-lg !text-white text-lg text-center'}
-							textButton={'Pagamento de fatura'}
-							rota={''}
-						/>
-						<Button
-							classList={'!bg-hero rounded-lg !text-white text-lg'}
-							textButton={'Realizar transferência'}
-							rota={''}
-						/>
-					</div> -->
 					<div class="grid grid-cols-2 gap-x-20">
-						<Services nome='Boleto' imagem='/assets/myaccount/boleto.svg' />
-						<Services nome='Pix' imagem='/assets/myaccount/moneySend.svg' />
-						<Services nome='Transferir' imagem='/assets/myaccount/moneySend2.svg' />
-						<Services nome='Fatura' imagem='/assets/myaccount/cartao.svg' />
+						<Services rota="/myaccount/boleto" nome="Boleto" imagem="/assets/myaccount/boleto.svg" />
+						<Services rota="/myaccount/pix" nome="Pix" imagem="/assets/myaccount/moneySend.svg" />
+						<Services
+							rota="/myaccount/transferir"
+							nome="Transferir"
+							imagem="/assets/myaccount/moneySend2.svg"
+						/>
+						<Services rota="/myaccount/fatura" nome="Fatura" imagem="/assets/myaccount/cartao.svg" />
 					</div>
-
 				</div>
 			</div>
 		</div>
 		<div class="pt-[470px] pb-[100px] text-justify">
-			<h1 id="about-section" class="text-[48px] font-bold">Sobre o <span class="text-laranja">OxeBank</span></h1>
+			<h1 id="about-section" class="text-[48px] font-bold">
+				Sobre o <span class="text-laranja">OxeBank</span>
+			</h1>
 			<p class="text-[22px] font-semibold pt-8">
 				O OxeBank é uma plataforma digital que oferece serviços financeiros de forma simples e sem
 				burocracia.

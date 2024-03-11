@@ -36,6 +36,11 @@ input{
 	:focus {
 		outline: none;
 	}
+	
+}
+.input-boleto{
+	border: 1px solid rgba(107, 114, 128, 0.3);
+	outline: unset;
 }
 	
 
