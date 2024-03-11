@@ -3,15 +3,26 @@
 	export let classList = '';
     import { navigate } from 'svelte-navigator';
 
-    //Função
     function next(){
         const formulario = document.getElementsByClassName('form-boleto');
-        console.log(formulario[0].classList);
-        formulario[0].classList.add('hidden');
+        var input = document.getElementsByClassName('input-boleto');
+        const confirmaBoleto = document.getElementsByClassName('confirma-boleto');
+
+
+        if(input[0].value == '12345'){
+            confirmaBoleto[0].classList.remove('hidden');
+            formulario[0].classList.add('hidden');
+        }
+        //Se o boleto não existir
+        else{
+            alert('Boleto não encontrado, verifique o código de barras e tente novamente.');
+            input[0].value = '';
+        }
+        console.log(input[0].value);
     }
 
 </script>
 
-<button on:click={next} class="{classList} bg-transparent border text-white font-semibold py-2 px-4 rounded-3xl">
+<button type="submit" on:click={next} class="{classList} bg-transparent border text-white font-semibold py-2 px-4 rounded-3xl">
 	{textButton}
 </button>
