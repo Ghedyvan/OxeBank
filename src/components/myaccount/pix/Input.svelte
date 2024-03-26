@@ -11,6 +11,11 @@
         confirma[0].classList.remove('hidden');
         chavePix = document.getElementById('chavePix').value;
         valorTransferencia = document.getElementById('valorTransferencia').value;
+        if(chavePix == '' || valorTransferencia == ''){
+            alert('Preencha todos os campos');
+            form[0].classList.remove('!hidden');
+            confirma[0].classList.add('hidden');
+        }
         console.log(chavePix);
         console.log(valorTransferencia);
     }

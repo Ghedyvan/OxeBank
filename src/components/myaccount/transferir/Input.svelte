@@ -1,7 +1,7 @@
 <script>
 	import Button from '../../Button.svelte';
     import ButtonB from '../../ButtonC.svelte';
-    var chavePix = '';
+    var numeroConta = '';
     var valorTransferencia = '';
     const form = document.getElementsByClassName('form-pix');
     const confirma = document.getElementsByClassName('confirma-pix');
@@ -9,9 +9,9 @@
     function next(){
         form[0].classList.add('!hidden');
         confirma[0].classList.remove('hidden');
-        chavePix = document.getElementById('chavePix').value;
+        numeroConta = document.getElementById('numeroConta').value;
         valorTransferencia = document.getElementById('valorTransferencia').value;
-        console.log(chavePix);
+        console.log(numeroConta);
         console.log(valorTransferencia);
     }
 </script>
@@ -20,12 +20,11 @@
 	<div class="max-w-[1216px] w-full flex justify-center">
 		<form class="form-pix flex flex-col w-full max-w-[400px] !border-opacity-0">
             <select name="tipoChave" id="tipoChave" class="w-full border border-gray-500 rounded-md p-2 input-boleto mb-6">
-                <option value="">Selecione o tipo de chave</option>
-                <option value="1">Chave de CPF</option>
-                <option value="2">Chave de Email</option>
-                <option value="2">Chave aleatória</option>
+                <option value="">Selecione o tipo de conta</option>
+                <option value="1">Conta corrente</option>
+                <option value="2">Conta poupança</option>
             </select>
-            <input type="text" id="chavePix" placeholder="Digite a chave PIX" class="w-full border border-gray-500 rounded-md p-2 input-boleto mb-6">
+            <input type="number" id="numeroConta" placeholder="Digite o número da conta" class="w-full border border-gray-500 rounded-md p-2 input-boleto mb-6">
             <input type="number" id="valorTransferencia" placeholder="Digite o valor da transferência" class="w-full border border-gray-500 rounded-md p-2 input-boleto  mb-6">
             <div class="w-full flex justify-between">
                 <Button textButton='Retornar' rota='/myaccount' classList='!text-white !font-light !px-8 !bg-[#053F5C]'  />
@@ -40,7 +39,7 @@
         <div class=" confirma-pix flex-col w-full max-w-[400px] !border-opacity-0 hidden">
             <h2 class="text-center text-[22px]">
                 O valor total desse pagamento é de<br> R$ {valorTransferencia} <br>
-                para a chave PIX:<br> {chavePix}
+                para a conta:<br> {numeroConta}
             </h2>
             
             <div class="w-full flex justify-between mt-8">
