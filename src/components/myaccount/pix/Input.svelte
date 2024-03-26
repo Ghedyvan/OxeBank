@@ -3,6 +3,7 @@
     import ButtonB from '../../ButtonC.svelte';
     var chavePix = '';
     var valorTransferencia = '';
+    var tipoChave = '';
     const form = document.getElementsByClassName('form-pix');
     const confirma = document.getElementsByClassName('confirma-pix');
 
@@ -11,7 +12,8 @@
         confirma[0].classList.remove('hidden');
         chavePix = document.getElementById('chavePix').value;
         valorTransferencia = document.getElementById('valorTransferencia').value;
-        if(chavePix == '' || valorTransferencia == ''){
+        tipoChave = document.getElementById('tipoChave').value;
+        if(chavePix == '' || valorTransferencia == '' || tipoChave == ''){
             alert('Preencha todos os campos');
             form[0].classList.remove('!hidden');
             confirma[0].classList.add('hidden');
